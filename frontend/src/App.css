@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/AvenirLTStd-Book.otf') format('otf');
+}
+
 .App {
   text-align: center;
+  font-family: Avenir;
 }
 
 .App-logo {

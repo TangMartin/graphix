@@ -1,0 +1,35 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.logoContainer {
+
+}
+
+.logoTitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    align-items: center;
+}
+
+.link-inactive {
+    padding-right: 10%;
+}
+
+.link-active {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-decoration: none;
+    color: #252525;
+}
