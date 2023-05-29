@@ -24,12 +24,18 @@
 }
 
 .link-inactive {
-    padding-right: 10%;
-}
-
-.link-active {
+    text-decoration: underline;
     padding-left: 2vw;
     padding-right: 2vw;
     text-decoration: none;
+    color: #656565;
+}
+
+.link-active {
+    text-decoration: underline;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-decoration: none;
+    font-weight: 900;
     color: #252525;
 }

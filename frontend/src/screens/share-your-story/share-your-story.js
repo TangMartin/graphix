@@ -1,21 +1,21 @@
 import React from 'react';
 import appColor from '../../constants.js';
 import Header from '../../components/navigation-bar/index.js';
-import './home.css';
+import './share-your-story.css';
 
 
-function Home() {
+function Share() {
   
     return (
-      <div className="homePage">
-        <div className="homeHeader">
+      <div className="storyPage">
+        <div className="storyHeader">
             <Header />
         </div>
-        <div className="homeContent">
-            <div> Home </div>
+        <div className="storyContent">
+            <div> Share Your Story </div>
         </div>
       </div>
     );
   }
   
-  export default Home;
+  export default Share;

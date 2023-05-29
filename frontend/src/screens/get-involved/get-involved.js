@@ -1,21 +1,21 @@
 import React from 'react';
 import appColor from '../../constants.js';
 import Header from '../../components/navigation-bar/index.js';
-import './home.css';
+import './get-involved.css';
 
 
-function Home() {
+function Involve() {
   
     return (
-      <div className="homePage">
-        <div className="homeHeader">
+      <div className="involvePage">
+        <div className="involveHeader">
             <Header />
         </div>
-        <div className="homeContent">
-            <div> Home </div>
+        <div className="involveContent">
+            <div> Get Involved </div>
         </div>
       </div>
     );
   }
   
-  export default Home;
+  export default Involve;

@@ -18,28 +18,28 @@ function Header() {
                 > Home </NavLink>
 
                 <NavLink 
-                    to="/"
+                    to="/about"
                     className={({ isActive }) =>
                         isActive ? "link-active" : "link-inactive"
                     }
                 > About Us</NavLink>
                 
                 <NavLink 
-                    to="/"
+                    to="/update"
                     className={({ isActive }) =>
                         isActive ? "link-active" : "link-inactive"
                     }
                 > News & Updates</NavLink>
 
                 <NavLink 
-                    to="/"
+                    to="/contact"
                     className={({ isActive }) =>
                         isActive ? "link-active" : "link-inactive"
                     }
                 > Get Involved</NavLink>    
 
                 <NavLink 
-                    to="/"
+                    to="/share"
                     className={({ isActive }) =>
                         isActive ? "link-active" : "link-inactive"
                     }

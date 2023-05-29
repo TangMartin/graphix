@@ -1,21 +1,21 @@
 import React from 'react';
 import appColor from '../../constants.js';
 import Header from '../../components/navigation-bar/index.js';
-import './home.css';
+import './about-us.css';
 
 
-function Home() {
+function About() {
   
     return (
-      <div className="homePage">
-        <div className="homeHeader">
+      <div className="aboutPage">
+        <div className="aboutHeader">
             <Header />
         </div>
-        <div className="homeContent">
-            <div> Home </div>
+        <div className="aboutContent">
+            <div> About Us </div>
         </div>
       </div>
     );
   }
   
-  export default Home;
+  export default About;
