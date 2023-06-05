@@ -16,7 +16,7 @@ function Home() {
             <div> Home </div>
         </div>
         <div className="footer">
-            <Footer />
+            <Footer backgroundcolor="#6859A0"/>
         </div>
       </div>
     );

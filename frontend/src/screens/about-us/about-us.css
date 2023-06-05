@@ -5,3 +5,26 @@
 .aboutContent {
     background-color: antiquewhite;
 }
+
+.aboutSec1 {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.aboutIntro {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAEBAE;
+    border-radius: 30px;
+    padding: 4% 0 4% 0;
+}
+
+.aboutIntroText {
+    flex: 1;
+    text-align: right;
+}
+
+.aboutIntroImage {
+    flex: 1;
+}
