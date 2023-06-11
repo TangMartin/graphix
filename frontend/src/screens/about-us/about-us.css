@@ -10,21 +10,88 @@
     margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
-.aboutIntro {
+.aboutSec1Background {
     display: flex;
     flex-direction: row;
-    background-color: #FAEBAE;
+    background-color:rgba(250, 235, 174, 0.5);
     border-radius: 30px;
     padding: 4% 0 4% 0;
 }
 
-.aboutIntroText {
+.aboutSec1Text {
     flex: 1;
     text-align: right;
+    padding-top: 5%;
 }
 
-.aboutIntroImage {
+.aboutSec1Image {
     flex: 1;
+}
+
+.aboutSec2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.aboutSec2Text {
+    margin-left: 2%;
+    margin-right: 50%;
+    padding-top: 15%;
+}
+
+.aboutSec2List {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.aboutSec2List li {
+    padding-top: 2%;
+}
+
+.aboutSec3 {
+    margin-top : 5%;
+}
+
+.aboutSec3Background {
+    background-color: rgba(191, 179, 237, 0.3);
+    border-radius: 30px;
+    padding: 4% 0 4% 0;
+}
+
+.aboutSec3Title {
+    padding-top: 3%;
+    font-size: 2vw;
+    font-weight: 800;
+    padding-bottom: 3%;
+}
+
+.aboutSec3Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutSec3Box {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.aboutSec3Text {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.aboutSec3Text div {
+    margin-top: 2%;
+    padding: 30px;
+}
+
+.aboutSec4 {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
