@@ -1,7 +1,10 @@
 import React from 'react';
 import appColor from '../../constants.js';
+
 import Header from '../../components/navbar/index.js';
 import Footer from '../../components/footer/index.js';
+import Member from '../../components/member/index.js';
+
 import HistoryBook from '../../assets/about-us/graphicHistoryBook.png';
 import InterviewMap from '../../assets/about-us/mapInterview.png';
 import ResearchBook from '../../assets/about-us/researchBook.png';
@@ -155,7 +158,21 @@ function About() {
             <img src={Cartoon} alt="ResearchCartoon"/>
         </div>
         <div className="aboutSec4">
-            
+          <div className='aboutSec3Title'>
+            Meet the Rest of the Crew
+          </div>
+          <div className='aboutSec4Container'>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+          </div>
+          <div className='aboutSec4Container'>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+            <Member role="Role in the Team" name="Name of the Member" description="A few sentences about the team member"/>
+          </div>
         </div>
         <div className="footer">
             <Footer backgroundcolor="#6859A0"/>

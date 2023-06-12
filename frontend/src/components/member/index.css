@@ -1,0 +1,23 @@
+.Member {
+    padding: 0% 0% 0% 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: left;
+    max-width: min-content;
+    margin-bottom: 5%;
+}
+
+.MemberRole {
+    margin-top: 10px;
+}
+
+.MemberName {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #4961A8;
+}
+
+.MemberDescription {
+    margin-top: 10px;
+}
